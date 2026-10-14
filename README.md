@@ -1,4 +1,4 @@
-# SmileAlign AI 🦷
+# SmileAlign AI 
 
 **AI-powered dental pre-screening using smartphone images**
 
@@ -154,10 +154,10 @@ SmileAlign-AI/
 ├── requirements.txt
 ├── .gitignore
 └── assets/
-    └── demo-output.png
+    └── output.png
 ```
 
-Only add `assets/demo-output.png` if you have a demo image you are allowed to share. Do not upload identifiable patient images or private health information without appropriate permission and safeguards.
+Only add `assets/output.png` if you have a image you are allowed to share. Do not upload identifiable patient images or private health information without appropriate permission and safeguards.
 
 Example `requirements.txt`:
 
@@ -182,10 +182,6 @@ The current source is notebook-oriented. For a production repository, consider s
 - Do not publish patient images or results that could identify a person without explicit authorization.
 
 ## ⚠️ Limitations
-
-- This is a prototype, not a clinically validated dental assessment system.
-- Gap values are estimates based on detected image regions and are expressed in pixels unless properly calibrated.
-- The rule-based suggestion is not a reliable method for deciding whether a crown, cap, or other dental treatment is needed.
 - Tooth count, gap thresholds, and alignment heuristics can fail on partial, rotated, blurred, or poorly lit images.
 - The source file contains multiple experimental notebook sections. Run the intended section carefully; not every section is a single integrated application.
 - Clinical use would require appropriate datasets, independent testing, calibration, bias and error evaluation, privacy safeguards, and assessment by qualified dental professionals.
@@ -214,4 +210,4 @@ Built as an exploratory AI project using computer vision and a Roboflow-hosted d
 
 ---
 
-**SmileAlign AI — supporting early dental awareness through computer vision, with professional dental care remaining essential.**
+**SmileAlign AI supporting early dental awareness through computer vision, with professional dental care remaining essential.**
